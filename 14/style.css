@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;   
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center
+}
+
+#the-chat{
+  display: flex;
+  flex-direction:column;
+  justify-content: center
+}
+
+.user{
+  color: green;
+}
+
+.contact{
+  color:red
+}
